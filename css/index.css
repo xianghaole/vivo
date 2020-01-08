@@ -1,0 +1,576 @@
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+/*顶部开始*/
+#box{
+    width:100%;
+    height:40px;
+    background: rgb(51,51,51);
+}
+#box .center{
+    width:1226px;
+    height:40px;
+    margin:0 auto;
+    background: rgb(51,51,51);
+    /*background: yellow;*/
+}
+
+#box .center .left{
+    float: left;
+    width:600px;
+    height:40px;
+    /*background: pink;*/
+}
+#box .center .left a{
+    float:left;
+    display:block;
+    height:40px;
+    line-height:40px;
+    font-size:12px;
+    color:#b0b0b0;
+    padding:0 10px;
+    position:relative;
+}
+#box .center .left a span{
+    display:block;
+    position: absolute;
+    width:1px;
+    height:12px;
+    right:0;
+    top:14px;
+    background:#424242;
+}
+#box .center .right{
+    float: right;
+    height:40px;
+    /*background: grey;*/
+}
+#box .center .right >a{
+    float:left;
+    display:block;
+    height:40px;
+    line-height:40px;
+    font-size:12px;
+    color:#b0b0b0;
+    padding:0 10px;
+    position:relative;
+}
+#box .center .right a span{
+    display:block;
+    position: absolute;
+    width:1px;
+    height:12px;
+    right:0;
+    top:14px;
+    background:#424242;
+}
+#box .center a:hover{
+    color:white;
+}
+/*顶部结束*/
+/*导航栏开始*/
+#nav{
+    width:100%;
+    height:80px;
+    /*background-color:pink ;*/
+}
+#nav .navCenter{
+    width:1226px;
+    height:80px;
+    margin:0 auto;
+    /*background-color:white ;*/
+}
+#nav .navCenter .navCenterLeft{
+    float: left;
+    width:300px;
+    height:80px;
+    /*background-color: blue;*/
+}
+#nav .navCenter .navCenterLeft .navCenterLeft_left{
+    float: left;
+    width:100px;
+    height:80px;
+    /*background-color: red;*/
+    background: url(../images/logo00.jpg) no-repeat center center;
+    border: 1px;
+}
+#nav .navCenter .navCenterLeft .navCenterLeft_right{
+    float: left;
+    width:100px;
+    height:80px;
+    line-height:80px;
+    /*color:black;*/
+    font-weight: 700;
+    margin-left:8px;
+}
+#nav .navCenter .navCenterRight{
+    float: right;
+    width:200px;
+    height:80px;
+    /*color: black;*/
+    /*background-color: blue;*/
+}
+#nav .navCenter .navCenterRight a{
+    float:right;
+    display:block;
+    height:80px;
+    line-height:80px;
+    font-size:16px;
+    color:black;
+    padding:0 10px;
+
+}
+/*导航栏结束*/
+/*轮播图开始*/
+#banner{
+    width:100%;
+    height:369px;
+    background: rgb(1,105,216) url(../images/banner.png) no-repeat center center;
+}
+/*轮播图结束*/
+/*按钮区域开始*/
+#btn{
+    width: 100%;
+    height:120px;
+    /*background-color: red;*/
+}
+#btn .btn_center{
+    width:1226px;
+    height:120px;
+    margin:0 auto;
+    /*background: yellow;*/
+}
+#btn .btn_center >div{
+    float: left;
+    width:368px;
+    height:60px;
+    /*background-color: pink;*/
+    margin:30px 0px 30px 60px;
+    border-radius: 8px;
+}
+#btn .btn_center .btn_center1{
+    background-color: rgb(85,172,255);
+}
+#btn .btn_center .btn_center2{
+    background-color: rgb(120,196,10);
+}
+#btn .btn_center .btn_center3{
+    background-color: rgb(80,202,211);
+}
+#btn .btn_center .btn_center1 .btn_center1_left{
+    float: left;
+    width:100px;
+    height:60px;
+    background:  url(../images/news_01.png) no-repeat center center;
+}
+#btn .btn_center .btn_center1 .btn_center1_right{
+    float: left;
+    width:258px;
+    height:60px;
+    font-size: 24px;
+    /*text-align: center;*/
+    line-height:60px;
+    margin-left:10px;
+    /*background-color: red;*/
+}
+#btn .btn_center .btn_center2 .btn_center2_left{
+    float: left;
+    width:100px;
+    height:60px;
+    background:  url(../images/news_02.png) no-repeat center center;
+}
+#btn .btn_center .btn_center2 .btn_center2_right{
+    float: left;
+    width:258px;
+    height:60px;
+    font-size: 24px;
+    /*text-align: center;*/
+    line-height:60px;
+    margin-left:10px;
+    /*background-color: red;*/
+}
+#btn .btn_center .btn_center3 .btn_center3_left{
+    float: left;
+    width:100px;
+    height:60px;
+    background:  url(../images/news_03.png) no-repeat center center;
+}
+#btn .btn_center .btn_center3 .btn_center3_right{
+    float: left;
+    width:258px;
+    height:60px;
+    font-size: 24px;
+    /*text-align: center;*/
+    line-height:60px;
+    margin-left:10px;
+    /*background-color: red;*/
+}
+/*按钮区域结束*/
+/*平台动态部分开始*/
+#dongtai{
+    width:1226px;
+    height:40px;
+    margin:0 auto;
+    /*background: yellow;*/
+    position: relative;
+    border-bottom: solid 2px lightgrey;
+}
+#dongtai #dongtai_son{
+    position: absolute;
+    top:17px;
+    font-weight: 700;
+    font-size:18px;
+}
+/*平台动态部分结束*/
+/*平台动态内容开始*/
+#dongtai_content{
+    width:1226px;
+    height:220px;
+    margin:0 auto;
+    /*background: yellow;*/
+
+}
+#dongtai_content .one{
+    float: left;
+    width:250px;
+    height:220px;
+    /*background-color: green;*/
+    position: relative;
+}
+#dongtai_content .one img{
+    /*margin:0 auto;*/
+    position: absolute;
+    left:43px;
+    top:30px;
+}
+#dongtai_content .one .one_top{
+    position: absolute;
+    left:100px;
+    top:74px;
+    font-size:36px;
+    color: rgb(86,173,255);
+}
+#dongtai_content .one .one_bottom{
+    position: absolute;
+    left:100px;
+    top:136px;
+    font-size:36px;
+    /*color: rgb(86,173,255);*/
+}
+#dongtai_content .two{
+    float: left;
+    width:450px;
+    height:220px;
+    /*background-color: blue;*/
+    position: relative;
+}
+#dongtai_content .two .two_top{
+    position: absolute;
+    left:5px;
+    top:62px;
+   font-weight: 700;
+    font-size:14px;
+    /*color: rgb(86,173,255);*/
+}
+#dongtai_content .two .two_bottom{
+    position: absolute;
+    left:7px;
+    top:95px;
+    font-size:12px;
+
+    /*color: rgb(86,173,255);*/
+}
+#dongtai_content .three{
+    float: left;
+    width:526px;
+    height:220px;
+    /*background-color: pink;*/
+    position: relative;
+}
+#dongtai_content .three .three_ul{
+    width:526px;
+    height:220px;
+    position: absolute;
+    left:10px;
+    top:20px;
+}
+#dongtai_content .three .three_ul li{
+    list-style-type: none;
+    margin-top:15px;
+    font-size:12px;
+    font-weight:700;
+}
+#dongtai_content .three .three_ul li span{
+    position: absolute;
+    left:416px;
+}
+/*平台动态内容结束*/
+/*平台服务开始*/
+#service{
+    width:1226px;
+    height:40px;
+    margin:0 auto;
+    /*background: yellow;*/
+    position: relative;
+    border-bottom: solid 2px lightgrey;
+}
+#service #service_son{
+    position: absolute;
+    top:17px;
+    font-weight: 700;
+    font-size:18px;
+}
+/*平台服务结束*/
+/*平台服务内容开始*/
+#service_content{
+    width:1226px;
+    height:220px;
+    margin:0 auto;
+    /*background: yellow;*/
+
+}
+#service_content .one{
+    float: left;
+    width:270px;
+    height:220px;
+    /*background-color: green;*/
+    position: relative;
+}
+#service_content .one img{
+    /*margin:0 auto;*/
+    position: absolute;
+    left:-5px;
+    top:30px;
+}
+#service_content .one .one_top{
+    position: absolute;
+    left:100px;
+    top:74px;
+    font-size:36px;
+    /*color: rgb(86,173,255);*/
+}
+#service_content .one .one_bottom{
+    position: absolute;
+    left:100px;
+    top:136px;
+    font-size:36px;
+    /*color: rgb(86,173,255);*/
+}
+#service_content .two{
+    float: left;
+    width:343px;
+    height:220px;
+    /*background-color: blue;*/
+    position: relative;
+}
+#service_content .two .two_top{
+    position: absolute;
+    left:22px;
+    top:62px;
+    font-weight: 700;
+    font-size:14px;
+    /*color: rgb(86,173,255);*/
+}
+#service_content .two .two_bottom{
+    position: absolute;
+    left:22px;
+    top:95px;
+    font-size:12px;
+
+    /*color: rgb(86,173,255);*/
+}
+#service_content .two .two_sp{
+    position: absolute;
+    left:22px;
+    top:130px;
+    font-size:12px;
+    color: rgb(255,49,68);
+    /*color: rgb(86,173,255);*/
+}
+#service_content .three{
+    float: left;
+    width:526px;
+    height:220px;
+    background-color: pink;
+    position: relative;
+}
+#service_content .three .three_ul{
+    width:526px;
+    height:220px;
+    position: absolute;
+    left:10px;
+    top:20px;
+}
+#service_content .three .three_ul li{
+    list-style-type: none;
+    margin-top:15px;
+    font-size:12px;
+    font-weight:700;
+}
+/*平台服务内容结束*/
+/*开发者活动开始*/
+#develop{
+    width:1226px;
+    height:40px;
+    margin:0 auto;
+    /*background: yellow;*/
+    position: relative;
+    border-bottom: solid 2px lightgrey;
+}
+#develop #develop_son{
+    position: absolute;
+    top:17px;
+    font-weight: 700;
+    font-size:18px;
+}
+/*开发者活动结束*/
+/*开发者内容开始*/
+#develop_content{
+    width:1226px;
+    height:280px;
+    margin:0 auto;
+    /*background: yellow;*/
+    /*position: relative;*/
+
+}
+
+#develop_content>div{
+    float: left;
+    width:392px;
+    height:280px;
+    /*background: red;*/
+    margin: 35px 0px 0px 15px;
+}
+#develop_content  .one_top{
+    width:392px;
+    height:140px;
+    /*background: pink;*/
+
+}
+
+#develop_content  .one_bottom{
+    width:392px;
+    height:130px;
+    /*background: blue;*/
+    position: relative;
+}
+#develop_content  .one_bottom .one_bottom_top{
+    font-weight: 700;
+    font-size:14px;
+    margin-top:10px;
+
+}
+#develop_content  .one_bottom .one_bottom_bottom{
+    position: absolute;
+    font-size:12px;
+    top:30px;
+}
+/*优秀案例开始*/
+#smart{
+    width:1226px;
+    height:40px;
+    margin:0 auto;
+    /*background: yellow;*/
+    position: relative;
+    border-bottom: solid 2px lightgrey;
+}
+#smart #smart_son{
+    position: absolute;
+    top:17px;
+    font-weight: 700;
+    font-size:18px;
+}
+/*优秀案例结束*/
+/*优秀案例内容开始*/
+#smart_content{
+    width:1226px;
+    height:200px;
+    margin:0 auto;
+    /*background: yellow;*/
+}
+#smart_content>div{
+    float:left;
+    height:180px;
+    width:150px;
+    margin-left: 65px;
+    /*background: red;*/
+}
+#smart_content  .one_top{
+    height:150px;
+    width:150px;
+    background: pink url(../images/list01.jpg);
+
+}
+#smart_content  .two_top{
+    background: pink url(../images/list02.jpg);
+}
+#smart_content  .three_top{
+    background: pink url(../images/list03.jpg);
+}
+#smart_content  .four_top{
+    background: pink url(../images/list04.png);
+}
+#smart_content  .five_top{
+    background: pink url(../images/list05.png);
+}
+#smart_content  .six_top{
+    background: pink url(../images/list06.png);
+}
+#smart_content  .one_bottom{
+    height:30px;
+    width:150px;
+    /*background: blue;*/
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+}
+/*优秀案例结束开始*/
+/*footer部分开始*/
+#footer{
+    width:100%;
+    height:80px;
+    background: rgb(51,51,51);
+}
+#footer .footer_center{
+    width:1226px;
+    height:80px;
+    margin:0 auto;
+    /*background: green;*/
+
+}
+#footer .footer_center .footer_center_a{
+    width:600px;
+    height:40px;
+    margin:0 auto;
+    /*background: darkblue;*/
+}
+#footer .footer_center .footer_center_bottom{
+    width:100%;
+    height:40px;
+    /*background: red;*/
+    position: relative;
+}
+#footer .footer_center .footer_center_bottom p{
+    position: absolute;
+    left:271px;
+    text-align:center;
+    line-height:30px;
+    font-size:12px;
+    color:rgb(106,107,98);
+}
+#footer .footer_center a{
+    float:left;
+    display:block;
+    height:20px;
+    line-height:20px;
+    font-size:12px;
+    color:rgb(106,107,98);
+    padding:0 10px;
+    margin:20px 30px 30px 50px;
+
+}
+/*footer部分结束*/
